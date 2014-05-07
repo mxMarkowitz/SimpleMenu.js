@@ -1,0 +1,38 @@
+div.menu {
+	position: absolute;
+	width: 200px;
+	border: 1px solid lightgray;
+	border-bottom: none;
+	left: -250;
+	top: 5%;
+	background: white;
+	border-collapse: collapse;
+}
+div.menu-item {
+    width: 100%; height: 50px;
+    border-bottom: 1px solid lightgray;
+    border-collapse: collapse;
+}
+div.menu-item-icon {
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 4.5;
+}
+div.menu-item-text {
+    width: 75%;
+    height: 100%;
+    float: right;
+    text-align: center; line-height: 4.5;
+}
+div.menu-overlay {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: lightgray;
+	opacity: .5;
+	left: 0;
+	top: 0;
+}
